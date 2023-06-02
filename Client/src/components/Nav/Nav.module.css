@@ -1,0 +1,28 @@
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: thistle;
+    border: 2px;
+    border-color: rgb(196, 143, 196);
+}
+
+.link{
+    color: black;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid grey;
+}
+.link:hover{
+    color: greenyellow;
+    background-color:rgb(196, 143, 196) ;
+    border-color:rgb(7, 178, 246)
+}
+

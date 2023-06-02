@@ -1,0 +1,60 @@
+.card{
+    font-size: small;
+    position: relative;
+    height: 560px;
+    width: 300px;
+    border:4px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+  }
+  
+.card:hover{
+  border-color:rgb(7, 178, 246);
+  color: greenyellow;
+}  
+.card:hover .boton{
+  opacity: 1;
+}
+.card:hover .detail{
+  opacity:1;
+}
+.card:hover .boton2{
+  opacity :1;
+}
+
+.boton{
+    background-color:rgb(196, 143, 196);
+    position:absolute;
+    top :0.5pc;
+    left: 270px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 100pc;
+    cursor: pointer;
+  }
+  .boton2{
+    background-color:rgb(196, 143, 196);
+    position:absolute;
+    top :0.5pc;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 120pc;
+    cursor: pointer;
+  }
+
+.detail{
+  width: 100px;
+  position: absolute;
+  top :17.5pc;
+  left :100px;
+  background-color:rgb(196, 143, 196);
+  opacity :0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 2pc;
+  border-color:rgb(7, 178, 246);
+  color: greenyellow;
+  cursor: pointer;
+}
